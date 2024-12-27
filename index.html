@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>CV Generator</h1>
+        <fieldset>
+            <legend>Enter Your Personal Information</legend>
+            <input class="name" type="text" placeholder="Enter Your Name">
+            <input class="fname" type="text" placeholder="Enter Your Father Name">
+            <input class="age" type="number" placeholder="Enter Your Age">
+            <label for="qualification">Last Qualification:</label>
+            <br>
+            <select required class="select">
+                <option class="mat" value="Matric">Matric</option>
+                <option class="int" value="Inter">Inter</option>
+                <option class="bs" value="Bs">Bs</option>
+            </select>
+            <br>
+            <label for="" class="lang">Enter Your Languages:</label>
+            <input class="lang" style="display: inline;" type="checkbox" value="English">English
+            <input class="lang" style="display: inline;" type="checkbox" value="Urdu">Urdu
+            <input class="lang" style="display: inline;" type="checkbox" value="Arabic">Arabic
+        </fieldset>
+
+        <fieldset>
+            <legend>Enter Your Addresses</legend>
+            <input class="email" type="email" placeholder="Enter Your Email">
+            <input class="phone" type="number" placeholder="Enter Your Phone Number">
+            <input class="address" type="text" placeholder="Enter Your Address">
+            <input class="city" type="text" placeholder="Enter Your City">
+            <input class="country" type="text" placeholder="Enter Your Country">
+        </fieldset>
+
+        <button class="btn">Submit CV</button>
+    </div>
+
+    <div class="Themes">
+        <h2>CV Themes</h2>
+        <button class="black">Black</button>
+        <button class="blue">Blue</button>
+        <button class="white">White</button>
+    </div>
+    
+    <div class="cv">
+        <h1>Your CV</h1>
+        <h3>Your Information</h3>
+        <p class="name1"></p>
+        <p class="fname1"></p>
+        <p class="age1"></p>
+        <h3>Qualification</h3>
+        <p class="sel1"></p>
+        <h3>language</h3>
+        <p class="lang1"></p>
+        <h3>Your Addresses</h3>
+        <p class="email1"></p>
+        <p class="phone1"></p>
+        <p class="address1"></p>
+        <p class="city1"></p>
+        <p class="country1"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
